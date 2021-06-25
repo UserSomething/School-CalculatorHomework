@@ -54,15 +54,9 @@ namespace School_CalculatorHomework
 
         public static double Subtract(double[] numbers)
         {
-            //double difference = Math.Abs(numbers[0]);
-            //numbers[0] = 0;
-            //if (numbers[0] < 0)
-            //{
-            //numbers[0] *= -1;
-            //}
-
             double difference = numbers[0];
             numbers[0] = 0;
+
             foreach (double number in numbers)
             {
                 difference -= number;
