@@ -299,7 +299,7 @@ namespace School_CalculatorHomework
 
         static int GetUserNumberCount()
         {
-            int userNumCount = 0;
+            int userNumCount;
             do
             {
                 Console.WriteLine("How many numbers do you want to write? Two numbers and above is allowed.");
